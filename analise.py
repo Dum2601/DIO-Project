@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 plt.style.use('dark_background')
 
-sales_path = '/home/doug_b_souza/Documentos/Estudo/Programação/Projetos/Projetos DIO/Análise de dados com Python e Pandas/Sales Data Analysis.csv' # Substituir pelo caminho desejado
+sales_path = '' # Ponha o caminho do arquivo na String / Put the file path in the String
 
 df = pd.read_csv(sales_path)
 
