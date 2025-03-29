@@ -22,5 +22,5 @@ df.drop_duplicates(inplace=True) # Removing duplicated data
 
 print(df.head)
 
-df.plot(figsize=(10, 6))
+df.plot(figsize=(10, 6)) # values recommended by chatGPT (used only to help with the minors visibilities tricks)
 plt.show()
